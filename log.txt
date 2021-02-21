@@ -1,0 +1,58 @@
+ERROR 2021-02-21 19:56:12,693 [mynavi_06-07#<module> 32] error
+INFO 2021-02-21 19:56:41,132 [mynavi_06-07#main 131] 1ページ目終了
+WARNING 2021-02-21 19:56:50,405 [connectionpool#urlopen 780] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C91EA68CD0>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。')': /session/7018c7e87eec9a51f234cc09e5478fa8/elements
+WARNING 2021-02-21 19:56:52,418 [connectionpool#urlopen 780] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C91EAE87F0>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。')': /session/7018c7e87eec9a51f234cc09e5478fa8/elements
+WARNING 2021-02-21 19:56:54,440 [connectionpool#urlopen 780] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C91EAF4A90>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。')': /session/7018c7e87eec9a51f234cc09e5478fa8/elements
+ERROR 2021-02-21 20:09:01,603 [mynavi_08#<module> 33] error
+ERROR 2021-02-21 20:09:10,887 [mynavi_08#main 147] error
+ERROR 2021-02-21 20:11:58,337 [mynavi_08#<module> 33] error
+ERROR 2021-02-21 20:12:03,606 [mynavi_08#main 147] error
+ERROR 2021-02-21 20:22:37,797 [mynavi_08#<module> 38] error
+ERROR 2021-02-21 20:24:23,216 [mynavi_08#main 154] error
+ERROR 2021-02-21 20:24:30,083 [mynavi_08#<module> 38] error
+ERROR 2021-02-21 20:24:41,923 [mynavi_08#main 154] error
+ERROR 2021-02-21 20:28:44,839 [mynavi_08#<module> 39] error
+ERROR 2021-02-21 20:28:52,516 [mynavi_08#main 155] error
+ERROR 2021-02-21 20:30:30,741 [mynavi_08#<module> 37] error
+INFO 2021-02-21 20:30:37,397 [logger#log 22] ====== WebDriver manager ======
+INFO 2021-02-21 20:30:37,440 [logger#log 12] Current google-chrome version is 88.0.4324
+INFO 2021-02-21 20:30:37,441 [logger#log 12] Get LATEST driver version for 88.0.4324
+INFO 2021-02-21 20:30:37,680 [logger#log 12] Driver [C:\Users\hm_ty\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+ERROR 2021-02-21 20:30:38,988 [mynavi_08#main 152] error
+ERROR 2021-02-21 20:30:53,185 [mynavi_08#<module> 37] error
+ERROR 2021-02-21 20:31:51,188 [mynavi_08#main 151] error
+ERROR 2021-02-21 20:31:53,097 [mynavi_08#<module> 37] error
+ERROR 2021-02-21 20:32:14,409 [mynavi_08#main 151] error
+ERROR 2021-02-21 20:33:16,963 [mynavi_08#<module> 37] error
+INFO 2021-02-21 20:33:16,964 [logger#log 22] ====== WebDriver manager ======
+INFO 2021-02-21 20:33:17,028 [logger#log 12] Current google-chrome version is 88.0.4324
+INFO 2021-02-21 20:33:17,034 [logger#log 12] Get LATEST driver version for 88.0.4324
+INFO 2021-02-21 20:33:17,371 [logger#log 12] Driver [C:\Users\hm_ty\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+ERROR 2021-02-21 20:36:04,470 [mynavi_08#main 153] error
+ERROR 2021-02-21 20:36:23,372 [mynavi_08#<module> 37] error
+INFO 2021-02-21 20:36:23,373 [logger#log 22] ====== WebDriver manager ======
+INFO 2021-02-21 20:36:23,405 [logger#log 12] Current google-chrome version is 88.0.4324
+INFO 2021-02-21 20:36:23,406 [logger#log 12] Get LATEST driver version for 88.0.4324
+INFO 2021-02-21 20:36:23,911 [logger#log 12] Driver [C:\Users\hm_ty\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+ERROR 2021-02-21 20:36:25,174 [mynavi_08#main 154] error
+ERROR 2021-02-21 20:37:11,143 [mynavi_08#<module> 37] error
+INFO 2021-02-21 20:37:11,144 [logger#log 22] ====== WebDriver manager ======
+INFO 2021-02-21 20:37:11,176 [logger#log 12] Current google-chrome version is 88.0.4324
+INFO 2021-02-21 20:37:11,183 [logger#log 12] Get LATEST driver version for 88.0.4324
+INFO 2021-02-21 20:37:11,571 [logger#log 12] Driver [C:\Users\hm_ty\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+ERROR 2021-02-21 20:37:15,251 [mynavi_08#main 155] error
+ERROR 2021-02-21 20:38:10,452 [mynavi_08#<module> 37] error
+INFO 2021-02-21 20:38:10,452 [logger#log 22] ====== WebDriver manager ======
+INFO 2021-02-21 20:38:10,485 [logger#log 12] Current google-chrome version is 88.0.4324
+INFO 2021-02-21 20:38:10,493 [logger#log 12] Get LATEST driver version for 88.0.4324
+INFO 2021-02-21 20:38:10,739 [logger#log 12] Driver [C:\Users\hm_ty\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+ERROR 2021-02-21 20:38:50,776 [mynavi_08#<module> 37] error
+INFO 2021-02-21 20:38:50,777 [logger#log 22] ====== WebDriver manager ======
+INFO 2021-02-21 20:38:50,811 [logger#log 12] Current google-chrome version is 88.0.4324
+INFO 2021-02-21 20:38:50,819 [logger#log 12] Get LATEST driver version for 88.0.4324
+INFO 2021-02-21 20:38:51,099 [logger#log 12] Driver [C:\Users\hm_ty\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO 2021-02-21 20:39:26,320 [mynavi_08#main 141] 1ページ目終了
+WARNING 2021-02-21 20:39:35,638 [connectionpool#urlopen 780] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012927B783A0>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。')': /session/ba8d224aeea3858a045ee953e9a2384d/elements
+WARNING 2021-02-21 20:39:37,673 [connectionpool#urlopen 780] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012927B91AF0>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。')': /session/ba8d224aeea3858a045ee953e9a2384d/elements
+WARNING 2021-02-21 20:39:39,705 [connectionpool#urlopen 780] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012927BA4850>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。')': /session/ba8d224aeea3858a045ee953e9a2384d/elements
+ERROR 2021-02-21 20:39:41,715 [mynavi_08#main 156] error
