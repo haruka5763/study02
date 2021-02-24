@@ -63,10 +63,6 @@ def set_driver(driver_path, headless_flg):
 
 
 def main():
-    #Chromeのバージョンなどのチェックをします。
-    chrome = webdriver.Chrome(ChromeDriverManager().install())
-    chrome.get('https://www.google.com/?hl=ja')
-    chrome.quit()
 
     try:
 
@@ -74,9 +70,9 @@ def main():
 
         # driverを起動
         if os.name == 'nt': #Windows
-            driver = set_driver("chromedriver.exe", False)
+            driver = set_driver(ChromeDriverManager().install(), False)
         elif os.name == 'posix': #Mac
-            driver = set_driver("chromedriver", False)
+            driver = set_driver(ChromeDriverManager().install(), False)
         # Webサイトを開く
         driver.get("https://tenshoku.mynavi.jp/")
         time.sleep(5)
@@ -138,7 +134,7 @@ def main():
                         
                 driver.find_element_by_link_text("次へ").click()
                 page = page + 1
-                logger.info("{}ページ目終了".format(str(page)))
+                logger.info(F"{page}ページ目終了")
                 time.sleep(5)
 
             else:
@@ -146,7 +142,7 @@ def main():
                 SalarySeries = pd.Series(starting_salary_list)
                 df = pd.concat([df, CompanySeries, SalarySeries], axis=1)
                 df.columns=["企業名", "初任給"]
-                df.to_csv('mynavi03.csv', encoding='utf-8', mode="a")
+                df.to_csv('mynavi03.csv', encoding='utf-8_sig', mode="a")
                 text = "finish"
                 print(text)
                 driver.quit()
